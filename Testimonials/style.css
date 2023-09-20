@@ -1,0 +1,78 @@
+body {
+  background: -webkit-gradient(linear, left top, right top, from(teal), color-stop(transparent), to(#9c6028));
+  background: linear-gradient(to right, teal, transparent, #9c6028);
+}
+
+h1 {
+  text-align: center !important;
+  font-size: 72px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px #f6997ff4;
+  font-style: italic;
+  border-color: #381e0a;
+}
+
+h1, h3 {
+  font-family: californian FB, sans serif;
+}
+
+#link {
+  font-family: californian FB, sans serif;
+  font-size: 22px;
+  color: #381e0a;
+  margin-bottom: 50px;
+}
+
+#link-hover {
+  background: -webkit-gradient(linear, left top, right top, from(teal), color-stop(transparent), to(#9c6028));
+  background: linear-gradient(to right, teal, transparent, #9c6028);
+}
+
+.sidenav {
+  background-color: transparent;
+  color: white;
+}
+
+.image-container {
+  background-image: url("../Testimonials/roadTrip.webp");
+  /* The image used - important! */
+  background-size: cover;
+  position: relative;
+  /* Needed to position the cutout text in the middle of the image */
+  height: 500px;
+  /* Some height */
+}
+
+.text {
+  background-color: white;
+  color: black;
+  font-size: 10vw;
+  /* Responsive font size */
+  font-weight: bold;
+  font-family: californian FB, sans serif;
+  margin: 0 auto;
+  /* Center the text container */
+  width: 95%;
+  text-align: center;
+  /* Center text */
+  position: absolute;
+  /* Position text */
+  top: 30%;
+  /* Position text in the middle */
+  left: 50%;
+  /* Position text in the middle */
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  /* Position text in the middle */
+  mix-blend-mode: screen;
+  /* This makes the cutout text possible */
+}
+
+h4 {
+  font-family: perpetua, sans serif;
+}
+
+#cell {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

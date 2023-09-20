@@ -1,0 +1,24 @@
+#thanks {
+    font-family:  "Californian FB, forte";
+    color:#C33758;
+}
+
+body,
+html {
+    height: 100%
+    
+}
+
+.bgimg {
+
+    background-image: url('../Project Shell/Group Three Resources/hammock.PNG');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#titles{
+    font-family: 'Californian FB', serif;
+    font-size: 34px;
+    text-transform: uppercase;
+}

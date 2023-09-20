@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>#VanLife</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./styles/van.css">
+    <link rel="stylesheet" href="../Routes/index.html">
+    <link rel="stylesheet" href="../Testimonials/index1.html">
+    <link rel="stylesheet" href="../Landing-Page/van.html">
+</head>
+
+
+<body>
+    <!-- Header -->
+    <div class="w3-content headline" id='top' style="max-width:100%">
+        <div class="mySlides2 w3-display-container w3-text-white pics w3-animate-fading">
+            <img src="./roadToNowhere.jpg" alt="Roadtrip picture" height="425px" style="width:100%">
+            <div class="w3-display-middle w3-container">
+                <p class="guts">Here at #VANLIFE you are guaranteed a beautiful experience</p>
+            </div>
+        </div>
+        <div class="mySlides2 w3-display-container w3-text-white pics w3-animate-fading title">
+            <img src="./toadTrip3.gif" alt=" automated Roadtrip gif" height="430" style="width:100%">
+            <div class="w3-display-middle w3-container">
+                <p class="header">#V<i class="bright spin">A</i>N L<i class="bright spin">I</i>FE</p>
+            </div>
+        </div>
+        <div id="usrName" class="w3-center w3-text-teal"></div>
+    </div>
+
+    <!-- Hides on 1136px smaller screens -->
+
+    <div style="position:absolute;left:5rem" class="sidenav">
+        <p class="header" style="line-height:2px">#
+        <p class="header" style="line-height:2px">V</p>
+        <div class="letter" style="position:relative;top:120px;line-height:2px"><i class="bright">A</i></div>
+        <p class="header">N</p>
+        <p class="header" style="line-height:2px">L</p>
+        <div class="letter" style="position:relative;top:120px;line-height:2px"><i class="bright">I</i></div>
+        <p class="header">F</p>
+        <p class="header" style="line-height:1px">E</p>
+    </div>
+    </div>
+
+
+    <!-- Middle Card-->
+
+    <div class="w3-animate-zoom w3-content move-body" style="max-width:1500px" id="blur">
+
+        <div class="w3-section w3-row-padding">
+
+            <div class="w3-twothird w3-cell">
+                <div class="w3-card-4">
+
+                    <img src="./images/pexels-alessio-cesario-1906879.jpg" alt=" Woman enjoying life"
+                        style="width:100%">
+
+                    <div class="w3-container w3-light-grey">
+                        <p>You can go anywhere in style!
+                        <p>VanLife allows you the frredom of staying where ever you want, without the costs of hotels.</p>
+                        <p>Van life can be quite convienent!</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Homepage side-card -->
+            <div class="w3-third w3-container w3-center w3-cell side-card">
+                <div class="w3-card-4 ">
+                    <div class="w3-container front">
+                        <button id="button" onclick="openNav()" class="w3-image w3-button w3-round-large click">Homepage</button>
+                        <p class="w3-large">Check out our Homepage</p>
+                    </div>
+                    <div class="w3-container smaller">
+                        <p>Homepage</p>
+                    </div>
+                </div>
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+
+
+                        <!-- PLACE ALL THE HASHTAGS FOR THE ACTUAL HOMEPAGE HERE -->
+                        <a href="#" onclick="noAccess()">About</a>
+                        <a href="../Routes/index.html">Places</a>
+                        <a href="../Testimonials/index1.html">Stories</a>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Registration SideBar -->
+
+                <div class="w3-card-4 w3-section ">
+                    <div class="w3-container front">
+                        <button id="button" onclick="document.getElementById('id01').style.display='block'"
+                            class="w3-button w3-round-large click2" id="enter">Register</button>
+                        <p class="w3-large">Click here to register with our site so we can keep you informed of our
+                            Tours</p>
+                    </div>
+                    <div class="w3-container smaller">
+                        <p>Register</p>
+                        <p>(Newsletters,Emails and more....)</p>
+                    </div>
+                    <!--Modal for Registration Form  -->
+
+                    <div class="w3-container">
+                        <div id="id01" class="w3-modal">
+                            <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+                                <header class="headline w3-text-black" style="height:150px;position:relative;top:0px">
+                                    <h1 class="header" style="position:relative;top:0px">#V<i class="bright spin">A</i>N
+                                        L<i class="bright spin">I</i>FE</h1>
+
+                                    <h3>Sign Up</h3>
+                                    <p class="w3-text-black">Please fill in this form to create an account.</p>
+                                </header>
+                                <hr>
+                                <div class="w3-center"><br>
+                                    <span onclick="document.getElementById('id01').style.display='none'"
+                                        class="w3-button w3-xlarge w3-transparent w3-display-topright"
+                                        title="Close Modal">×</span>
+
+
+                                </div>
+
+                                <form class="w3-container" action="../About/index.html" id="regName" name="regName"
+                                    style="margin-top:10%">
+                                    <!--PLACE THE HOMEPAGE LINK HERE SO WHEN THAY REGISTER THEY CAN GO TO THE HOMEPAGE-->
+                                    <div class="w3-section">
+                                        <label for="name"><b>Full Name</b></label>
+                                        <input class="w3-input w3-border w3-margin-bottom" type="text"
+                                            placeholder="Enter FullName" name="usrname" id="name" value="" required>
+                                        <label for="email"><b>Email</b></label>
+                                        <input class="w3-input w3-border" type="email" placeholder="Enter Email"
+                                            name="email" required>
+                                        <label for="psw"><b>Password</b></label>
+                                        <input class="w3-input w3-border" type="password" placeholder="Enter Password"
+                                            name="psw" required>
+
+                                        <label for="psw-repeat"><b>Repeat Password</b></label>
+                                        <input class="w3-input w3-border" type="password" placeholder="Repeat Password"
+                                            name="psw-repeat" required>
+
+                                        <label for="mailing_address"><b>Address</b></label>
+                                        <input class="w3-input w3-border" type="text" placeholder="Enter Address"
+                                            name="addy" required>
+                                        <br />
+                                        <div class="container">
+                                            <div class="w3-dropdown-click">
+                                                <button onclick="myFunction()"
+                                                    class="w3-button w3-round-large click2">State</button>
+                                                <div id="options"
+                                                    class="w3-dropdown-content w3-bar-block w3-animate-zoom">
+                                                    <select name="states" id="states">
+                                                        <option value="Arizona" class="w3-bar-item">AZ</a>
+                                                        <option value="Arkansas" class="w3-bar-item">AR</option>
+                                                        <option value="Alabama" class="w3-bar-item">AL</option>
+                                                        <option value="California" class="w3-bar-item">CA</a>
+                                                        <option value="Colorado" class="w3-bar-item">CO</option>
+                                                        <option value="Georgia" class="w3-bar-item">GA</option>
+                                                        <option value="Connecticut" class="w3-bar-item">CT</option>
+                                                        <option value="Florida" class="w3-bar-item">FL</option>
+                                                        <option value="Iowa" class="w3-bar-item">IO</option>
+                                                        <option value="Illinois" class="w3-bar-item">IL</option>
+                                                        <option value="Hawaii" class="w3-bar-item">HI</option>
+                                                        <option value="Louisianna" class="w3-bar-item">LA</option>
+                                                        <option value="Maine" class="w3-bar-item">ME</option>
+                                                        <option value="Mississippi" class="w3-bar-item">MS</option>
+                                                        <option value="Michigan" class="w3-bar-item">MI</option>
+                                                        <option value="Missouri" class="w3-bar-item">MO</option>
+                                                        <option value="Montana" class="w3-bar-item">MT</option>
+                                                        <option value="New Mexico" class="w3-bar-item">NM</option>
+                                                        <option value="North Dakota" class="w3-bar-item">ND</option>
+                                                        <option value="North Carolina" class="w3-bar-item">NC</option>
+                                                        <option value="Nebraska" class="w3-bar-item">NE</option>
+                                                        <option value="Ohio" class="w3-bar-item">OH</option>
+                                                        <option value="Tennesse" class="w3-bar-item">TN</option>
+                                                        <option value="South Dakota" class="w3-bar-item">SD</option>
+                                                        <option value="South Carolina" class="w3-bar-item">SC</option>
+                                                        <option value="Minnesota" class="w3-bar-item">MN</option>
+                                                        <option value="Idaho" class="w3-bar-item">ID</option>
+                                                        <option value="Virginia" class="w3-bar-item">VA</option>
+                                                        <option value="Pennsylvania" class="w3-bar-item">PA</option>
+                                                        <option value="Washington" class="w3-bar-item">WA</option>
+                                                        <option value="Utah" class="w3-bar-item">UT</option>
+                                                        <option value="Nevada" class="w3-bar-item">NV</option>
+                                                        <option value="Texas" class="w3-bar-item">TX</option>
+                                                        <option value="Oklahoma" class="w3-bar-item">OK</option>
+                                                        <option value="New York" class="w3-bar-item">NY</a>
+                                                        <option value="Oregon" class="w3-bar-item">OR</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br />
+
+
+                                        <label><b>ZipCode</b></label>
+                                        <input class="w3-input w3-border" type="text" placeholder="Enter Zip Code"
+                                            name="zip" required>
+                                        <button class="w3-button w3-block  w3-section w3-padding click2" id="submit"
+                                            type="submit">Register</button>
+                                        <input class="w3-check w3-margin-top" type="checkbox" checked="checked">
+                                        Remember me
+                                    </div>
+                                </form>
+
+                                <div class="w3-container w3-border-top w3-padding-16 w3-light-grey" id="base_modal">
+                                    <button onclick="document.getElementById('id01').style.display='none'" type="button"
+                                        class="w3-button w3-red w3-round-large">Cancel</button>
+                                    <span class="w3-right w3-padding w3-hide-small">By creating an account you agree to
+                                        our <a href="#">Terms & Privacy</a></span>
+                                    <span class="w3-right w3-padding w3-hide-small">Any <a
+                                            href="#">questions?</a></span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Tour Sidebar  kelci's section-->
+
+                <div class="w3-card-4 w3-section ">
+                    <div class="w3-container front">
+                        <button id="button" onclick="document.getElementById('sample').style.display='block'"
+                            class="w3-button w3-round-large click2" id="enter">Destinations</button>
+                        <p class="w3-large">
+                            Take a look at our Tour Schedule for this Month</p>
+                    </div>
+                    <div class="w3-container smaller">
+                        <p>Free Sample</p>
+                        <p>(Destinations, Maps and much more....)</p>
+                    </div>
+                    <!-- Modal for Tours button -->
+                    <div id="sample" class="w3-modal">
+                        <div class="w3-modal-content w3-text-black w3-card-4 w3-animate-zoom">
+                            <header class="w3-container w3-blue">
+                                <span class="w3-button w3-hover-red w3-xlarge w3-display-topright"
+                                    onclick="document.getElementById('sample').style.display='none'">&times;</span>
+                                <h2>Here's a Look into #VanLife</h2>
+                            </header>
+
+                            <div class="w3-bar w3-border-bottom">
+                                <button class="tablink w3-bar-item w3-button"
+                                    onclick="openCity(event, 'Tours')">Destinations</button>
+                                <button class="tablink w3-bar-item w3-button"
+                                    onclick="openCity(event, 'Maps')">Maps</button>
+
+                            </div>
+
+
+                            <!-- Tour spot for Kelci -->
+
+                            <div id="Tours" class="w3-container tours">
+                                <h1>Destinations</h1>
+                                <div>
+                                    <img src="../Landing-Page/images/USA.jpg" width="250" class=""
+                                        alt="Map of tour cities">
+
+                                    <img src="../Landing-Page/images/sample-schedule.PNG"
+                                        style="width:30%;cursor:zoom-in"
+                                        onclick="document.getElementById('mock').style.display='block'">
+
+                                    <img src="../Landing-Page/images/snipit-Gilmore.PNG"
+                                        style="width:30%;cursor:zoom-in"
+                                        onclick="document.getElementById('mock2').style.display='block'">
+
+                                    <div id="mock" class="w3-modal" onclick="this.style.display='none'">
+                                        <span
+                                            class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                                        <div class="w3-modal-content w3-animate-zoom">
+                                            <img src="../Landing-Page/images/sample-schedule.PNG" style="width:100%">
+                                        </div>
+                                    </div>
+
+
+                                    <div id="mock2" class="w3-modal" onclick="this.style.display='none'">
+                                        <span
+                                            class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                                        <div class="w3-modal-content w3-animate-zoom">
+                                            <img src="../Landing-Page/images/snipit-Gilmore.PNG" style="width:100%">
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Our team has tracked down the best destinations for you as well as our
+                                        customers.
+                                        We get daily suggestions on where to go, where to stop, and where to get a fresh
+                                        outlook on life. Check out more on our Destinations page.
+
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div id="Maps" class="w3-container tours">
+                                <h1>Maps</h1>
+                                <div>
+                                    <img src="../Landing-Page/images/forestsInUSA.jpg" class="w3-image" width="150"
+                                        alt="Map of USA">
+                                    <img src="./roadToNowhere.jpg" class="w3-image" width="150" alt="Road map">
+                                </div>
+                                <p>When you can allow yourself to open up, you will see so much more</p>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <script>
+                    document.getElementsByClassName("tablink")[0].click();
+
+                    function openCity(evt, cityName) {
+                        var i, x, tablinks;
+                        x = document.getElementsByClassName("tours");
+                        for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";
+                        }
+                        tablinks = document.getElementsByClassName("tablink");
+                        for (i = 0; i < x.length; i++) {
+                            tablinks[i].classList.remove("w3-light-grey");
+                        }
+                        document.getElementById(cityName).style.display = "block";
+                        evt.currentTarget.classList.add("w3-light-grey");
+                    }
+                </script>
+            </div>
+        </div>
+
+
+
+        <div class="w3-section w3-container">
+            <div class=" w3-card-4 w3-white">
+                <p class="standOut">Sponsored by <a class="w3-text-blue" href="#">VolksWagon</a></p>
+                <div class="w3-container w3-black">
+                    <img src="../Landing-Page/images/vwbus-gb4ef39939_1920.jpg" alt="Disc" style="width:100%">
+                </div>
+                <div class="w3-container w3-white">
+                    <p>VolksWagon is just one of the many companies that are car designers for the #VANLIFE lifestyle.
+                         #VANLIFE the new R.V. camper for Millennials</p>
+                    <ul class="w3-ul">
+                        <label><span class="w3-text-blue">People</span> Magazines <sub>2022</sub> top 5 people that love
+                            to travel:</label>
+                        <li>College students</li>
+                        <li>Single Men/Women</li>
+                        <li>Couples</li>
+                        <li>Outdoorsmen</li>
+                        <li>Creative Artists</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!--  card -->
+
+        <div class="w3-section w3-container">
+            <div class="w3-card-4 w3-white">
+                <p class="standOut">Inspirational Insight</p>
+                <div class=" w3-section w3-display-container w3-black" style="max-width:100%">
+                    <img class="mySlides w3-animate-fading pic1"
+                        src="../Landing-Page/images/pexels-koolshooters-8975062.jpg" height="500" style="width:100%">
+                    <img class="mySlides w3-animate-fading" src="../Landing-Page/images/vanLife.webp" style="width:100%"
+                        height="500">
+                    <img class="mySlides w3-animate-fading" src="../Landing-Page/images/vanLife2.jpg" style="width:100%"
+                        height="500">
+                    <img class="mySlides w3-animate-fading" src="../Project Shell/Group Three Resources/vanLife3.jpg"
+                        height="500" style="width:100%">
+
+                    <div class="w3-display-middle w3-container" style="line-height:2px">
+
+                        <p id="pictext" class="header inspirationvan" style="position:relative;top:30px">#V<i class="bright">A</i>N
+                            L<i class="bright">I</i>FE</p>
+                    </div>
+                </div>
+
+
+                <div class="w3-container w3-white">
+                    <p>There are so many people in the world who are now living a tranquil lifestyle</p>
+                    <p> Whether they travel alone or in a family setting, people are giving the world a 2<sub>nd</sub>
+                        look. They are Making time for Mother Nature, and Mother Nature will not disappoint her guests.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <!--  -->
+
+        <div class="w3-section w3-container">
+            <div class="w3-card-4">
+                <p class="standOut">2 Days Ago</p>
+                <div class="w3-container w3-padding-16 w3-black w3-xxlarge">
+                    <p>«<i> Make it as simple as possible, but not simpler </i>»</p>
+                </div>
+                <div class="w3-container w3-white">
+                    <p>
+                        Find your freedom! Look for more out of your life!
+                    </p>
+
+                    <p>
+                        This is a new generation of travel. This is the simple life.
+                    </p>
+
+                    <p>
+
+                        Simple is beautiful. Simple is easy. Simple is <em>not</em> giving up on your dreams but 
+                        simplifying how you approach them and how you approach problems in your life. 
+
+                    </p>
+
+                    <p>
+                        We encourage you to sit back and reflect on how your life is going right now. Where does your happiness lie? 
+                        Does it lie within yourself, your family, your job...? Where is it? Before you embark on a life long journey, 
+                        make sure you are ready to take the step. Know where your happiness is before hand. You may find it is not 
+                        where you expected. 
+
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Footer Information -->
+
+    <footer class="w3-container">
+        <p>Introduced to you by:
+            <a href="../About/index.html">#Vanlife/Persevere
+                <sub>2022</sub></a>
+            </p>
+    </footer>
+
+
+
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript" src="./javascript/van.js"></script>
+    <script type="text/javascript" src="../Landing-Page/javascript/van2.js"></script>
+
+</body>
+
+</html>

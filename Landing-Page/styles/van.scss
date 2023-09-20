@@ -1,0 +1,186 @@
+$linear-Gradient:linear-gradient(to right, teal,transparent,#9c6028,#f6997ff4);
+ $light-up:2px ridge rgb(127, 236, 229);   
+ $button-color:radial-gradient(beige , #f6997ff4 );
+ $button-border:2px ridge rgb(194, 226, 194);
+$primary-font: California FB, sans serif;
+$secondary-font:$perpetua, sans serif;
+
+.bright{
+    color:white;
+    text-shadow:1px 2px 15px teal;}
+    .letter{
+   animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: 2;
+    animation-name: spin;
+    perspective:100px;
+    width:20px;
+    font-size:72px;
+    
+ }
+ @keyframes spin{
+ 0% {
+    transition:transform 0.8s;
+     transform:rotateY(0deg);
+     transform-style:preserve-3d;
+}
+100% {
+    transform: rotateY(359deg);
+}
+}
+  
+
+ 
+body{
+  background-image: radial-gradient(circle,transparent 45%, #fbe4ea 85%, #ffd2a8f4 95%);
+  font-family: California fb, san serif !important;
+}
+ .move-body {
+    height: 3850px;
+  }
+#blur{
+    background-color:white;
+    background-size: cover;
+    padding:20px 50px;
+}
+
+.standOut{
+  background-image:$linear-Gradient;
+  
+}
+
+
+ .headline{
+background-image:$linear-Gradient;
+
+ border: 2px  solid black;
+height:450px;
+
+padding: 50px 10px; 
+text-align: center; 
+font-weight: bold;
+
+
+ }
+
+ .pics{
+   position:relative;
+   bottom:40px;
+
+ }
+ .header{
+   position: relative;
+   top:200px;
+   font-size:72px;
+     color:#381e0a;
+     text-shadow:1px 2px 10px goldenrod;
+     font-family: californian fb;
+  
+ }
+ .smaller{
+    background-image:$linear-Gradient;
+    opacity:0.5;
+border:2px ridge rgb(127, 236, 229);
+font-family: californian fb;
+ color:#381e0a;
+text-shadow:1px 2px 10px goldenrod;
+ }
+
+ .click:hover, .click2:hover{
+  transform: scale(0.99,0.98);
+
+ }
+.click{
+    background-image:$button-color;
+   background-position: center;
+   border:$button-border;
+
+} 
+.click2{
+    background-image:$button-color;
+    box-shadow: 1px 5px 10px white;
+    border:$button-border;
+}
+
+.front{
+    border:$light-up
+}
+
+#base_modal{
+    background-image: $linear-Gradient;
+    border:$light-up;
+    opacity:0.6;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:  #f6997ff4;
+    background-color: rgba(236, 165, 146, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+
+  @media screen and(max-width: 1136px){
+    .side-nav{
+      display: none;
+    }
+  }
+  
+
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+        }
+    }
+    .wtf{
+      position:relative;
+      top: 1.45rem;
+    }
+    .guts{
+      font-size:45px;
+      font-family: California FB, sans serif !important;
+ 
+    }
+
+#button{
+  font-family: california FB, sans serif;
+  font-size: 19px;
+}
+

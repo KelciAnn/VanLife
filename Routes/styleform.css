@@ -1,0 +1,78 @@
+.bright {
+    color: white;
+    text-shadow: 1px 2px 15px teal;
+}
+
+.letter {
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: 2;
+    animation-name: spin;
+    perspective: 100px;
+    width: 20px;
+    font-size: 72px;
+
+}
+
+@keyframes spin {
+    0% {
+        transition: transform 0.8s;
+        transform: rotateY(0deg);
+        transform-style: preserve-3d;
+    }
+
+    100% {
+        transform: rotateY(359deg);
+    }
+}
+
+
+
+.header {
+    position: relative;
+    top: 0px;
+    font-size: 72px;
+    color: #381e0a;
+    text-shadow: 1px 2px 10px goldenrod;
+    font-family: californian fb;
+
+}
+
+.sidenav{
+    background-color: transparent;
+    color: white;
+}
+
+.products {
+    background: linear-gradient(to right, teal, transparent, #9c6028);
+    font-family: 'Californian FB', serif;
+}
+
+.packages {
+    font-family: 'Californian FB', serif;
+    background: linear-gradient(to right, teal, transparent, #9c6028);
+
+}
+
+.entire-page{
+    font-family: 'Californian FB', serif;
+}
+
+.info {
+    background: linear-gradient(to right, teal, transparent, #9c6028);
+
+}
+
+#checkout {
+    padding: 5%;
+}
+
+.cartItems{
+    font-family: 'Californian FB', serif;
+}
+
+@media screen and (max-width:429px) {
+    .van{
+        display: none;
+    }
+}

@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2020.css">
+    <link rel="stylesheet" href="./styleform.css">
+    <link rel="stylesheet" href="../Routes/index.html">
+    <link rel="stylesheet" href="../Testimonials/index1.html">
+    <link rel="stylesheet" href="../ContactUs/heatherindex.html">
+    <link rel="stylesheet" href="../Landing-Page/van.html">
+
+    <title>#VanLife - Products</title>
+</head>
+
+<body>
+
+
+    <!-- Nav(hambuger style ) -->
+
+    <div>
+
+        <div class="w3-sidebar w3-bar-block sidenav" style="display:none;z-index:5;height:250px" id="mySidebar">
+            <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+            <a href="../Landing-Page/van.html" class="w3-bar-item w3-button">Home</a>
+            <a href="../About/index.html" class="w3-bar-item w3-button">About</a>
+            <a href="../Routes/index.html" class="w3-bar-item w3-button">Places</a>
+            <a href="../Testimonials/index1.html" class="w3-bar-item w3-button">Stories</a>
+        </div>
+
+        <div>
+            <div class="w3-overlay" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+            <button class="w3-button w3-xlarge" onclick="w3_open()">&#9776;</button>
+        </div>
+
+    </div>
+
+
+
+    <div class="w3-col-l6 w3-padding-large w3-center entire-page">
+
+        <div class="w3-container entire-page">
+
+            <div>
+                <h1 class="entire-page">#VanShopping<p class="header van" style="line-height:0.15px">#V<i
+                            class="bright spin van">A</i>N L<i class="bright spin van">I</i>FE</p>
+                </h1>
+                <p>
+                    Thank you for shopping with us! We hope you've got all the help you needed.
+
+                </p>
+
+                <p>
+                    Any questions: 1-602-334-5678
+
+                </p>
+            </div>
+
+
+            <!-- Packages -->
+
+            <div class="w3-row w3-padding-64" id="menu">
+                <div class="w3-col 16 w3-padding-large">
+
+                    <div class="w3-panel w3-border w3-hover-border-black ">
+                        <h1 class="w3-center packages">Packages &#10004;</h1>
+                    </div>
+
+
+                    <h4 class="w3-animate-zoom cartItems">Eco-Friendly products $100.00<p><span
+                                class="w3-tag w3-blue">New!</span>
+                        </p>
+                    </h4>
+
+                    <img src="../Project Shell/Group Three Resources/plants.jpg" alt="Plants" style="width:20%;">
+
+                    <p class="w3-text-grey">
+                        There is an endless amount of products now adays that are eco-friendly and we make a
+                        suggestions
+                        for your new lifestyle.
+
+                    <p><button class="w3-btn w3-teal" onclick="button1()">Add to Cart
+                            <span class="w3-badge w3-margin-left w3-white" id="cart1">0</span>
+                        </button></p>
+                    </p><br>
+
+
+                    <h4 class="w3-animate-zoom cartItems">Gas deals (deals starting at $49.99)</h4>
+                    <img src="../Project Shell/Group Three Resources/openRoad.jpg" alt="Highway" style="width: 20%;">
+                    <p class="w3-text-grey">
+                        We have all the locations of electric plug-ins, gas stations, wonky little
+                        shops on the way to your destination or non-destination. No matter what route you take in
+                        the US,
+                        we've
+                        got your back!
+                    <p><button class="w3-btn w3-teal" onclick="button2()">Add to Cart
+                            <span class="w3-badge w3-margin-left w3-white" id="cart2">0</span>
+                        </button></p>
+                    </p><br>
+
+                    <h4 class="w3-animate-zoom cartItems">Dealerships and Architects (prices vary)</h4>
+                    <img src="../Project Shell/Group Three Resources/new-van-owner.PNG" alt="New Van"
+                        style="width: 20%;">
+
+                    <p class="w3-text-grey">
+                        #happyCustomer! Danny has purchased his first van through our partners, great deal, and on
+                        the way
+                        to
+                        his dream life...
+
+                    <p><button class="w3-btn w3-teal" onclick="button3()">Add to Cart
+                            <span class="w3-badge w3-margin-left w3-white" id="cart3">0</span>
+                        </button></p>
+                    </p><br>
+
+                    <h4 class="w3-animate-zoom cartItems">Meditation - Yoga - Freedom $33.00<p><span
+                                class="w3-tag w3-blue">New!</span></p>
+                    </h4>
+                    <img src="../Project Shell/Group Three Resources/couple-yoga-van.PNG" alt="Yogo Pose"
+                        style="width: 20%;">
+
+                    <p class="w3-text-grey">
+                        We understand the stress and strain of everyday life. Let us show you some new tips and
+                        tricks for
+                        peace in your life. You want to feel the same freedoms from within that you are feeling from
+                        the new
+                        nomad style you chose. Release your stress, breathe, and join us in a cool new stop every
+                        week.
+                    <p><button class="w3-btn w3-teal" onclick="button4()">Add to Cart
+                            <span class="w3-badge w3-margin-left w3-white" id="cart4">0</span>
+                        </button></p>
+                    </p><br>
+
+
+                    <!-- Products - Heather -->
+
+                    <div class="w3-panel w3-border w3-hover-border-black ">
+                        <h1 class="w3-center products">Products &#10004;</h1>
+
+                    </div>
+
+
+                    <h4 class="w3-animate-zoom cartItems">Portable Potty $59.99<p><span
+                                class="w3-tag w3-blue">New!</span>
+                        </p>
+                    </h4>
+                    <img src="../Project Shell/Group Three Resources/moreNonsense.jpg" alt="Potty" style="width:20%;">
+                    <p class="w3-text-grey">
+                        Too poo or not to poo?...Is that not the question we all want answered when thinking of
+                        living in
+                        such a
+                        tiny space?
+                        Let us help you find the right potty for your tiny space.
+
+                    <p><button class="w3-btn w3-teal" onclick="button5()">Add to Cart
+                            <span class="w3-badge w3-margin-left w3-white" id="cart5">0</span>
+                        </button></p>
+                    </p><br>
+
+
+                    <h4 class="w3-animate-zoom cartItems">Furnace $129.99</h4>
+                    <img src="../Project Shell/Group Three Resources/spaceheater.jpg" alt="Heater" style="width:20%">
+                    <p class="w3-text-grey">
+                        Everyone needs a source of heat especially if where you live is tiny and lacking in a
+                        centeral
+                        heating
+                        system.
+                    <p><button class="w3-btn w3-teal" onclick="button6()">Add to Cart
+                            <span class="w3-badge w3-margin-left w3-white" id="cart6">0</span>
+                        </button></p>
+                    </p><br>
+
+                    <h4 class="w3-animate-zoom cartItems">Bed in a Bag $45.50</h4>
+                    <img src="../Project Shell/Group Three Resources/bedInABag.jpg" alt="Blankets" style="width:20%">
+                    <p class="w3-text-grey">
+                        Some nights are meant for sleeping outside. Even though your tiny van home is technically
+                        more
+                        exposed
+                        to the outside elements
+                        there will be nights you want to be able to look at the stars. Check out the Bed In A Bag.
+                        It's the
+                        best.
+
+                    <p><button class="w3-btn w3-teal" onclick="button7()">Add to Cart
+                            <span class="w3-badge w3-margin-left w3-white" id="cart7">0</span>
+                        </button></p>
+                    </p><br>
+
+                    <h4 class="w3-animate-zoom cartItems">Cooler<p><span class="w3-tag w3-blue">New!</span></p>
+                    </h4>
+                    <img src="../Project Shell/Group Three Resources/cooler.jpg" alt="Cooler" style="width:20%;">
+                    <p class="w3-text-grey">
+
+                    <p><button class="w3-btn w3-teal" onclick="button8()">Add to Cart
+                            <span class="w3-badge w3-margin-left w3-white" id="cart8">0</span>
+                        </button></p>
+                    </p><br>
+
+                    <h4 class="w3-animate-zoom cartItems">Hammock $29.99<p><span class="w3-tag w3-blue">New!</span>
+                        </p>
+                    </h4>
+
+                    <!-- <img src="../Project Shell/Group Three Resources/hammock.jpg" alt="Hammock" style="width:30%"> -->
+
+                    <img src="../Project Shell/Group Three Resources/hammock3.png" alt="Hammock" style="width:20%">
+                    <p class="w3-text-grey">
+
+                        Who doesn't want a hammock hanging in their backyard? Your backyard is ANYWHERE you go. The
+                        world is
+                        at
+                        your fingertips
+                        and you can relax in your hammock where ever you stop.
+
+                    <p><button class="w3-btn w3-teal" onclick="button9()">Add to Cart
+                            <span class="w3-badge w3-margin-left w3-white" id="cart9">0</span>
+                        </button></p>
+                    </p><br>
+
+
+                    <h4 class="w3-animate-zoom cartItems">LED Lights $20.50<p><span class="w3-tag w3-blue">New!</span>
+                        </p>
+                    </h4>
+                    <img src="../Project Shell/Group Three Resources/stripLight.jpg" alt="Light String"
+                        style="width:20%">
+                    <p class="w3-text-grey">
+                        LED lights are an amazing addition to any tiny home or van. They can be used as an accent
+                        light all
+                        around your
+                        van/tiny home.
+
+
+                    <p><button class="w3-btn w3-teal" onclick="button10()">Add to Cart
+                            <span class="w3-badge w3-margin-left w3-white" id="cart10">0</span>
+                        </button></p>
+                    </p><br>
+
+                    <h4 class="w3-animate-zoom cartItems">Portable Battery Charger $20.99<p><span
+                                class="w3-tag w3-blue">New!</span>
+                        </p>
+                    </h4>
+                    <img src="../Project Shell/Group Three Resources/portableBatterycharger.jpg" style="width:20%">
+                    <p class="w3-text-grey">
+                        Portable Battery Chargers are a necessity when on the road. Don't ever get caught stranded,
+                        no
+                        service, and
+                        no way to help yourself get out of a situation that is avoidable.
+
+                    <p><button class="w3-btn w3-teal" onclick="button11()">Add to Cart
+                            <span class="w3-badge w3-margin-left w3-white" id="cart11">0</span>
+                        </button></p>
+                    </p><br>
+
+                    <h4 class="w3-animate-zoom cartItems">Shower on the Go $39.99<p><span
+                                class="w3-tag w3-blue">New!</span>
+                        </p>
+                    </h4>
+
+                    <img src="../Project Shell/Group Three Resources/shower.jpg" alt="" style="width:20%">
+                    <p class="w3-text-grey"> A MUST have! There will be times you find yourself in the middle of
+                        most
+                        beautiful location, with no shower or hotel for miles. In order to stay clean check out the
+                        options
+                        for Shower on the Go!
+
+                    <p><button class="w3-btn w3-teal" onclick="button12()">Add to Cart
+                            <span class="w3-badge w3-margin-left w3-white" id="cart12">0</span>
+                        </button></p>
+                    </p><br>
+
+
+
+
+                    <!-- form -->
+
+                    <div class="w3-card-4">
+
+                        <div class="w3-container info">
+                            <h2>Be sure to check out!</h2>
+                        </div>
+
+
+                        <form action="./contact.html" class="w3-container">
+
+                            <label class="">First, Middle, Last Name:</label>
+                            <input class="w3-input w3-text-pink" type="text" required>
+
+                            <label>Mailing Address:</label>
+                            <input class="w3-input w3-text-pink" type="text" required>
+
+                            <label>Email</label>
+                            <input class="w3-input w3-text-pink" type="email" required>
+
+                            <label>Phone Number</label>
+                            <input class="w3-input w3-text-pink" type="tel" name="phone" placeholder="800-505-1678"
+                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+
+
+                            <label>Card Number</label>
+                            <input class="w3-input w3-text-pink" type="text" required>
+
+
+                            <!-- Radio buttons for payment options-->
+
+                            <input class="w3-radio" type="radio" name="cards" value="credit" checked>
+                            <label>Mastercard</label>
+
+                            <input class="w3-radio" type="radio" name="cards" value="debit">
+                            <label>Visa</label>
+
+                            <input class="w3-radio" type="radio" name="cards" value="other">
+                            <label>Other</label>
+                            <br><br>
+
+
+                            <button class="w3-btn w3-teal">Check Out</button>
+
+                            <br>
+                            <p>Thank you!</p>
+
+                        </form>
+
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+            <hr>
+
+
+            <!-- footer links back to main page -->
+
+            <footer>
+                <br>
+                <p>Powered by <a href="../About/index.html" target="_blank" class="w3-hover-text-green">#VanLife</a>
+                </p>
+            </footer>
+
+        </div>
+    </div>
+    <script>
+
+
+        let count1 = 0;
+
+        const button1 = () => {
+            count1++
+
+            document.getElementById('cart1').innerHTML = count1;
+        }
+
+
+        let count2 = 0;
+
+        const button2 = () => {
+            count2++
+            document.getElementById('cart2').innerHTML = count2;
+        }
+
+        let count3 = 0;
+
+        const button3 = () => {
+            count3++
+            document.getElementById('cart3').innerHTML = count3;
+
+        }
+
+        let count4 = 0;
+
+        const button4 = () => {
+            count4++
+            document.getElementById('cart4').innerHTML = count4;
+
+        }
+
+        let count5 = 0;
+
+        const button5 = () => {
+            count5++
+            document.getElementById('cart5').innerHTML = count5;
+
+        }
+
+        let count6 = 0;
+
+        const button6 = () => {
+            count6++
+            document.getElementById('cart6').innerHTML = count6;
+
+        }
+
+        let count7 = 0;
+
+        const button7 = () => {
+            count7++
+            document.getElementById('cart7').innerHTML = count7;
+
+        }
+        let count8 = 0;
+
+        const button8 = () => {
+            count8++
+            document.getElementById('cart8').innerHTML = count8;
+
+        }
+
+        let count9 = 0;
+
+        const button9 = () => {
+            count9++
+            document.getElementById('cart9').innerHTML = count9;
+
+        }
+        let count10 = 0;
+
+        const button10 = () => {
+            count10++
+            document.getElementById('cart10').innerHTML = count10;
+
+        }
+
+        let count11 = 0;
+
+        const button11 = () => {
+            count11++
+            document.getElementById('cart11').innerHTML = count11;
+
+        }
+
+
+        let count12 = 0;
+
+        const button12 = () => {
+            count12++
+            document.getElementById('cart12').innerHTML = count12;
+
+        }
+
+    </script>
+
+
+
+    <script>
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
+    </script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,161 @@
+.bright {
+    color: white;
+    text-shadow: 1px 2px 15px teal;
+}
+
+.letter {
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: 2;
+    animation-name: spin;
+    perspective: 100px;
+    width: 20px;
+    font-size: 72px;
+
+}
+
+@keyframes spin {
+    0% {
+        transition: transform 0.8s;
+        transform: rotateY(0deg);
+        transform-style: preserve-3d;
+    }
+
+    100% {
+        transform: rotateY(359deg);
+    }
+}
+
+.header {
+    position: relative;
+    top: 0px;
+    font-size: 72px;
+    color: #381e0a;
+    text-shadow: 1px 2px 10px goldenrod;
+    font-family: "Californian FB", serif;
+
+}
+
+.destination {
+    font-family: 'Californian FB', serif;
+    font-size: 20px;
+}
+
+.tidbits {
+    color: #9c6028;
+
+}
+
+#titles {
+    font-family: 'Californian FB', serif;
+    font-size: 72px;
+    text-transform: uppercase;
+}
+
+.title{
+    font-family: 'Californian FB', serif;
+    font-size: 20px;
+    color: teal;
+    text-transform: uppercase;
+}
+
+.title1{
+    font-family: 'Californian FB', serif;
+    color: #9c6028;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.living{
+    font-family: 'Californian FB', serif;
+    color: teal;
+    font-size: 40px;
+}
+.cards {
+    font-family: 'Californian FB', serif;
+}
+
+#pros {
+    font-family: 'Californian FB', serif;
+    font-size: 20px;
+}
+
+#cons {
+    font-family: 'Californian FB', serif;
+    font-size: 20px;
+}
+
+.quote {
+    background-image: linear-gradient(to right, teal, transparent, #9c6028);
+    font-family: 'Californian FB', serif;
+}
+
+.routes {
+    background-image: linear-gradient(to right, teal, transparent, #9c6028);
+    font-family: 'Californian FB', serif;
+}
+
+#route {
+    font-family: 'Californian FB', serif;
+}
+
+.buttons {
+    background: linear-gradient(to right, teal, transparent, #9c6028);
+    white-space: normal;
+
+}
+
+.form {
+    font-family: 'Californian FB', serif;
+    font-size: 20px;
+}
+
+
+.sidenav{
+    background-color: transparent;
+    color: white;
+}
+
+
+#photo1 {
+    padding: 3%
+}
+
+#photo2 {
+
+    padding: 3%
+}
+
+#photo3 {
+    padding: 3%
+}
+
+#photo4 {
+    padding: 3%
+}
+
+#photo5 {
+    padding: 3%
+}
+
+#photo6 {
+    padding: 3%
+}
+
+#photo7 {
+    padding: 3%
+}
+
+#photo8 {
+    padding: 1%
+}
+
+.w3-row img {
+    margin-bottom: -8px
+}
+
+
+#connect{
+    font-family: 'Californian FB', serif;
+}
+

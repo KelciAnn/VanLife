@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testimonials</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="../Routes/index.html">
+  <link rel="stylesheet" href="../About/index.html">
+
+</head>
+
+<body>
+
+  <div>
+
+    <div class="w3-sidebar w3-bar-block sidenav" style="display:none;z-index:5;height:250px" id="mySidebar">
+      <button class="w3-bar-item w3-button w3-large " onclick="w3_close()">Close &times;</button>
+      <a href="../Landing-Page/van.html" class="w3-bar-item w3-button">Home</a>
+      <a href="../About/index.html" class="w3-bar-item w3-button">About</a>
+      <a href="../Routes/index.html" class="w3-bar-item w3-button">Places</a>
+      <a href="../Testimonials/index1.html" class="w3-bar-item w3-button">Stories</a>
+    </div>
+
+    <div class="myOverlay">
+      <div class="w3-overlay myOverlay" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+      <button class="w3-button  w3-xlarge myOverlay" onclick="w3_open()">&#9776;</button>
+
+    </div>
+    
+  </div>
+
+  <div class="image-container">
+    <div class="text">TESTIMONIALS</div>
+  </div>
+
+  <br>
+  <br>
+
+  <div class="w3-cell-row">
+    <div class="w3-display-container w3-cell">
+      <div class="w3-display-top-left w3-container">
+        <img src="images/img_snow.jpg" alt="Snowy Forest" style="width:100%">
+        <h4>Spokane, WA</h4>
+        <p>Spokane is so Beautiful in the Summer season. You sould visit if the opportunity arises.</p>
+      </div>
+    </div>
+    <div class="w3-display-container w3-cell">
+      <div class="w3-display-top-left w3-container">
+        <img src="images/mountains_wide (1).jpg" alt="Snow Covered Peaks" style="width:85%">
+        <h4>Bend, OR</h4>
+        <p>Bend, Oregon is a Christmas destiny to visit for the holidays. The season for snowy white fluff. I love
+          playing in the snow!!</p>
+      </div>
+    </div>
+    <div class="w3-display-container w3-cell">
+      <div class="w3-display-top-left w3-container">
+        <img src="images/bridge.PNG" alt="San Fran Bridge" style="width:100%">
+        <h4>San Francisco, CA</h4>
+        <p id="cell">This city has so much to enjoy. The San Fran Bridge, the Redwood Forrest,
+          Alcatraz.</p>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+  <div class="w3-panel w3-white w3-margin w3-round-xlarge">
+    <p> We have a unique supply store that caters to #VanLife customers.
+      Come visit us for needed supplies and share your stories with us to
+      receive a discount on your purchases. We look forward to meeting you.
+      -Trudy Morris, Bend, OR</p>
+  </div>
+  <br>
+  <div class="w3-panel w3-border w3-border-white w3-margin w3-round-large">
+    <p>We welcome all who love to travel to stay on our farm during harvesting season.
+      We have met some of the most interesting people throughout our hospitality.
+      -The Beckers</p>
+  </div>
+
+  <br>
+  <br>
+
+  <div class="w3-cell-row">
+    <div class="w3-display-container w3-cell">
+      <div class="w3-display-top-left w3-container">
+        <img src="images/desert.jpg" alt="Redrock Mountains" style="width:90%">
+        <h4>Sedona, AZ</h4>
+        <p>Sedona is known for its Redrocks mountains. It also has specialty shops of
+          artisan goods. I suggest this as a must stop to any adventure you are looking for.</p>
+      </div>
+    </div>
+    <div class="w3-display-container w3-cell">
+      <div class="w3-display-top-left w3-container">
+        <img src="images/trail.png" alt="Beautiful Snowy Forest" style="width:80%">
+        <h4> Payson, AZ</h4>
+        <p>The town of Payson is so quaint. Everyone is friendly and sweet. Out of Payson you
+          have the National Forests with trails, fish hatchery, winter sleding and so may other
+          options to explore.</p>
+      </div>
+    </div>
+    <div class="w3-display-container w3-cell">
+      <div class="w3-display-top-left w3-container">
+        <img src="images/blackHills.jpg" alt="National Forest" style="width:100%">
+        <h4> Park City, UT</h4>
+        <p>The Black Hills National Forest is awesome in the fall season. All the leaves in the
+          different hues of reds and oranges are breath taking.</p>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+  <div class="w3-panel w3-white w3-margin w3-round-xlarge">
+    <p> I own the Willy's Gas Shop off the US66 in Winslow, AZ. I provide discounts to
+      anyone who is persuing the van lifestyle. It is a great way for me to give back
+      to the community and I love seeing all the different styles these kids come up
+      with for their vans. -Gerald Shaw </p>
+  </div>
+  <br>
+  <div class="w3-panel w3-border w3-border-white w3-margin w3-round-xlarge">
+    <p>For anyone traveling the highway Route 66 stop and say hello to us in Payson, AZ.
+      We are the Williamson's and we own the Pinetop Bakery. We would love to meet you.
+      -Kori and Tom</p>
+  </div>
+
+  <br>
+  <br>
+
+  <!-- footer links back to main page -->
+
+  <footer>
+    <br>
+    <p>Powered by <a href="../About/index.html" class="w3-hover-text-green">#VanLife</a></p>
+  </footer>
+
+
+
+  </div>
+
+
+  <script>
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+      document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+      document.getElementById("myOverlay").style.display = "none";
+    }
+  </script>
+
+
+
+  <script src="./jquery1.js"></script>
+  <script type="text/javascript" src="./script.js"></script>
+
+</body>
+
+</html>
